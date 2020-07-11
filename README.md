@@ -14,7 +14,7 @@ Symfony|5.8.35
 
 ## Configuration
 1. symfony check:requirements
-2. git clone https://github.com/shid/tasks.git
+2. git clone https://github.com/shid/tasks-manager.git
 3. Create/configure .env file
 4. `composer install`
 5. Create .htaccess at ./public folder and add:
