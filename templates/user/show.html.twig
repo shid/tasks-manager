@@ -3,7 +3,7 @@
 {% block title %}User{% endblock %}
 
 {% block session_title %}Do you want to delete: {{ user.name }} ({{ user.email }})?{% endblock %}
-{% block session_action_name %}back to list{% endblock %}
+{% block session_action_name %}back{% endblock %}
 {% block session_action_href %}{{ path('user_index') }}{% endblock %}
 
 {% block body %}
