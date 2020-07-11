@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New User{% endblock %}
+
+{% block session_title %}Create New User{% endblock %}
+{% block session_action_name %}back to list{% endblock %}
+{% block session_action_href %}{{ path('user_index') }}{% endblock %}
+
+{% block body %}
+
+    {{ include('user/_form.html.twig') }}
+
+{% endblock %}
