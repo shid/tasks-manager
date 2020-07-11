@@ -13,11 +13,10 @@
                 {{ form_row(form.password, { 'attr': { 'class': 'form-control'}}) }}
             </div>
         </div>
+        {% if error %}
+            <div class="alert alert-danger">{{ error }}</div>
+        {% endif %}
     </div>
-
-    {% if error %}
-        <div class="alert alert-danger">{{ error }}</div>
-    {% endif %}
 
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="collapse navbar-collapse">
